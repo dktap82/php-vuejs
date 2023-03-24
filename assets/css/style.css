@@ -1,0 +1,37 @@
+﻿/* import cdn */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.23.1/bootstrap-vue.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-vue/2.23.1/bootstrap-vue-icons.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css");
+
+/* font page style */
+@font-face {
+	font-family: Kanit;
+	src: url("../fonts/Kanit/Kanit-Regular.ttf");
+}
+body {
+	font-family: Kanit!important;
+}
+
+/* scrollbar style */
+::-webkit-scrollbar {
+	width: 12px;
+	height: 10px;
+}
+::-webkit-scrollbar-thumb {
+	height: 4px;
+	border: 2px solid rgba(0, 0, 0, 0);
+	background-clip: padding-box;
+	background-color: rgba(192,192,192,0.3);
+	-webkit-border-radius: 12px;
+	-webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+	inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+::-webkit-scrollbar-button {
+	display: none;
+	width: 0;
+	height: 0;
+}
+::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
